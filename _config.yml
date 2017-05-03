@@ -1,2 +1,4 @@
 gems:
   - octopress-autoprefixer
+exclude:
+  - deploy.md
