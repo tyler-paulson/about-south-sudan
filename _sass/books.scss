@@ -1,0 +1,20 @@
+.books {
+  background: $dark_gray;
+  color: white;
+  a {
+    color: $yellow;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.books--item {
+  padding-top: 1.875rem;
+  display: inline-block;
+  max-width: 22.5rem;
+  vertical-align: text-top;
+  margin-bottom: 1.875rem;
+  box-sizing: border-box;
+  padding-right: 1.875rem;
+}

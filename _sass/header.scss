@@ -1,5 +1,5 @@
 .header {
-  background: $gray;
+  background: $dark_gray;
   color: white;
   padding: .5rem 0;
   > .wrap {
@@ -35,5 +35,8 @@
   li a {
     color: white;
     text-decoration: none;
+    &:hover {
+      color: $yellow;
+    }
   }
 }

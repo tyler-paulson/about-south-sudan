@@ -1,0 +1,20 @@
+.news {
+  background: $red;
+  color: white;
+  a {
+    color: black;
+    &:hover {
+      color: white;
+    }
+  }
+}
+
+.news--item {
+  padding-top: .9375rem;
+  display: inline-block;
+  max-width: 15rem;
+  vertical-align: text-top;
+  margin-bottom: 1.875rem;
+  box-sizing: border-box;
+  padding-right: 1.875rem;
+}
