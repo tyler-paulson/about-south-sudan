@@ -1,7 +1,9 @@
 @mixin regular {
   font-family: 'tofino_regular', sans-serif;
+  font-weight: normal;
 }
 
 @mixin bold {
   font-family: 'tofinobold', sans-serif;
+  font-weight: normal;
 }

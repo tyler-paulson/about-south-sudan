@@ -17,6 +17,7 @@
 }
 
 .nav {
+  display: none;
   text-align: right;
   ul {
     padding: 0;
@@ -38,5 +39,8 @@
     &:hover {
       color: $yellow;
     }
+  }
+  @media(min-width: 35em) {
+    display: block;
   }
 }

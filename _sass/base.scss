@@ -4,16 +4,12 @@ body {
   padding: 0;
 }
 
-h1 {
-  @include bold;
+h2, h5 {
+  @include regular;
   margin: 0;
 }
 
-h2 {
-  margin: 0;
-}
-
-h4, h6 {
+h1, h3, h4, h6 {
   @include bold;
   margin: 0;
 }
