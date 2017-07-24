@@ -23,13 +23,9 @@ FileETag None
   ExpiresByType text/css                  "access plus 2 weeks"
   ExpiresByType application/javascript    "access plus 2 weeks"
 
-  ExpiresByType image/x-icon              "access plus 2 weeks"
-
-  ExpiresByType application/x-font-ttf    "access plus 1 year"
-  ExpiresByType font/opentype             "access plus 1 year"
   ExpiresByType application/x-font-woff   "access plus 1 year"
   ExpiresByType image/svg+xml             "access plus 1 year"
-  ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+  ExpiresByType image/jpeg                "access plus 1 year"
 
   <filesMatch "\.(eot|ttf|woff)$">
     Header append Cache-Control "public"
